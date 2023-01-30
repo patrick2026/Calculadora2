@@ -1,0 +1,79 @@
+.tela {/*tela da nossa calculadora*/
+display: flex;
+padding-left: 3em;/*espacamento interno a esquerda*/
+padding-right: 3em;/*espacamento a direita*/
+justify-content: center;
+align-items:center ;
+background: #000;
+flex-direction: column;
+font-size: 3rem;
+
+}
+
+.operacao {
+  color: #fff;
+  height: 1em;
+  
+}
+
+.resultado {
+  font-size: 4rem;
+  color: #fff;
+  margin-top: 2rem;
+  text-align: right;
+  
+}
+
+.botao1{ /*botão da calculadora*/
+  font-size: 2em;
+  height: 2em;
+  width: 2em;
+  border-radius: 2em;
+  background: #000;
+  color: #fff;
+  border-color: #000;
+ text-align: center;
+ outline: none;
+ padding: auto;
+}
+
+
+.contenier {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+  background: blue;
+  margin-top: 7em;
+  
+}
+
+.botoes1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+
+.contenier h3 {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
